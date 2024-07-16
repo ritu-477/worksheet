@@ -1,0 +1,48 @@
+
+.nav-box {
+    max-width: 520px;
+    width: 100%;
+    box-shadow: 0px 2px 48px 0px #00000014;
+    min-height: 100vh;
+    border-radius: 20px;
+    padding: 15px;
+}
+.tab-pane {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 32px 0px #00000014;
+    padding: 20px
+}
+
+.nav-link1 {
+    color: none !important;
+    background-color: none !important;
+    background: none;
+    box-shadow: none;
+    border-radius: 2px;
+    padding: 24px;
+    width: 100%;
+    border: 1px solid var(--fc--brown300);
+    border-left: 0px;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--fc-light-gray);
+    white-space: nowrap;
+}
+
+.nav1 .nav-link1.active {
+    color: blue;
+}
+.nav1 .nav-link1.active svg path{
+    fill: blue;
+}
+.modify{
+    max-width: 350px;
+    border-radius: 20px;
+}
+.h_130{
+    height: 130px;
+}
+
