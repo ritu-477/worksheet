@@ -39,10 +39,18 @@
     fill: blue;
 }
 .modify{
-    max-width: 350px;
+    max-width: 316px;
     border-radius: 20px;
 }
 .h_130{
     height: 130px;
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}
+@media(min-width:992px){
+    .flex_wrap{
+        flex-wrap: nowrap;
+    }
 }
 
